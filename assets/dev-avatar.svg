@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Pixel developer avatar</title>
+  <desc id="desc">A nostalgic pixel style developer portrait for the DevDex card prototype.</desc>
+  <rect width="320" height="320" rx="42" fill="#ffe9a8"/>
+  <path fill="#47d7ff" d="M34 211h252v66H34z"/>
+  <path fill="#3ddc97" d="M34 248h252v29H34z"/>
+  <path fill="#f7c948" d="M65 43h190v42H65z"/>
+  <path fill="#2a1706" d="M84 66h152v36H84z"/>
+  <path fill="#2a1706" d="M65 85h38v57H65zm152 0h38v57h-38z"/>
+  <path fill="#8b4b2b" d="M103 86h114v113H103z"/>
+  <path fill="#b86d41" d="M122 105h76v72h-76z"/>
+  <path fill="#2a1706" d="M122 121h19v18h-19zm57 0h19v18h-19z"/>
+  <path fill="#fff4d0" d="M128 126h8v7h-8zm57 0h8v7h-8z"/>
+  <path fill="#6f3720" d="M151 144h19v12h-19z"/>
+  <path fill="#2a1706" d="M136 169h48v12h-48z"/>
+  <path fill="#e84f3d" d="M145 169h30v7h-30z"/>
+  <path fill="#2a1706" d="M103 189h114v28H103z"/>
+  <path fill="#fff4d0" d="M84 217h152v55H84z"/>
+  <path fill="#17120f" d="M102 232h116v40H102z"/>
+  <path fill="#3ddc97" d="M114 243h28v12h-28zm41 0h51v12h-51z"/>
+  <path fill="#f7c948" d="M53 112h31v28H53zm183 0h31v28h-31z"/>
+  <path fill="#fff4d0" opacity=".42" d="M64 29h58v14H64zm-9 191h55v12H55zm175-171h37v13h-37z"/>
+</svg>

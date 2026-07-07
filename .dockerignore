@@ -1,0 +1,11 @@
+node_modules
+.git
+.env
+.env.local
+*.log
+coverage
+dist
+build
+.cache
+.vercel
+.netlify

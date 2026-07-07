@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: devdex-card-studio
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: CACHE_TTL_MS
+        value: 3600000
+      - key: RATE_LIMIT_MAX
+        value: 300
+      - key: GITHUB_SCAN_MAX
+        value: 40
+      - key: GITHUB_TOKEN
+        sync: false

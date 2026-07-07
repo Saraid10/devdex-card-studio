@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevDex Field Guide</title>
+    <link rel="stylesheet" href="styles.css?v=devdex-11" />
+  </head>
+  <body>
+    <main class="app-shell home-active" id="app-shell">
+      <section class="home-page" id="home-page" aria-label="DevDex field guide">
+        <nav class="home-nav" aria-label="Primary">
+          <a class="home-brand" href="#home" aria-label="DevDex home">
+            <span class="brand-mark">DD</span>
+            <span>DevDex</span>
+          </a>
+          <div class="nav-actions">
+            <button class="nav-cta ghost-cta" type="button" data-binder-trigger>Open Binder</button>
+            <button class="nav-cta" type="button" data-studio-trigger>Open Studio</button>
+          </div>
+        </nav>
+
+        <section class="home-hero reveal-on-scroll" aria-labelledby="home-title">
+          <div class="hero-scene" aria-hidden="true">
+            <div class="hero-card hero-card-one">
+              <span>DEV</span>
+              <strong>SPARK</strong>
+            </div>
+            <div class="hero-card hero-card-two">
+              <span>DEX</span>
+              <strong>MIND</strong>
+            </div>
+            <div class="hero-pack">
+              <span>FIELD SET</span>
+              <strong>151</strong>
+            </div>
+          </div>
+
+          <p class="eyebrow">Developer Field Guide</p>
+          <h1 id="home-title">DevDex</h1>
+          <p class="hero-copy">
+            Scan a GitHub profile, read its public trail, and pull a nostalgic developer card with a personal
+            specialty, moves, weakness, resist, ability, rarity, and collector number.
+          </p>
+          <div class="hero-actions">
+            <button class="primary-cta" type="button" data-studio-trigger>Enter Username</button>
+            <button class="secondary-cta" type="button" data-binder-trigger>Open Binder</button>
+            <a class="secondary-cta" href="#guide">Read the Terms</a>
+          </div>
+          <div class="hero-stat-strip" aria-label="DevDex scoring pillars">
+            <span>Spark</span>
+            <span>Tide</span>
+            <span>Forge</span>
+            <span>Mind</span>
+          </div>
+        </section>
+
+        <section class="home-section glossary-section reveal-on-scroll" id="guide" aria-labelledby="guide-title">
+          <div class="section-heading">
+            <p class="eyebrow">Pocket Manual</p>
+            <h2 id="guide-title">What the card terms mean</h2>
+            <p>
+              Every label is generated from public GitHub signals. The goal is not to rank people blindly, but to
+              make their developer style feel like a collectible profile.
+            </p>
+          </div>
+
+          <div class="term-layout">
+            <div class="term-grid" aria-label="DevDex glossary">
+              <button class="term-card active" type="button" data-term="spark">
+                <span>Spark</span>
+                <strong>Interface energy</strong>
+              </button>
+              <button class="term-card" type="button" data-term="tide">
+                <span>Tide</span>
+                <strong>Data flow</strong>
+              </button>
+              <button class="term-card" type="button" data-term="forge">
+                <span>Forge</span>
+                <strong>Systems craft</strong>
+              </button>
+              <button class="term-card" type="button" data-term="mind">
+                <span>Mind</span>
+                <strong>AI and research</strong>
+              </button>
+              <button class="term-card" type="button" data-term="rarity">
+                <span>Rarity</span>
+                <strong>How elite pulls happen</strong>
+              </button>
+              <button class="term-card" type="button" data-term="moves">
+                <span>Special Moves</span>
+                <strong>Personal profile attacks</strong>
+              </button>
+            </div>
+
+            <aside class="term-detail" aria-live="polite">
+              <span id="term-kicker">Spark Field</span>
+              <h3 id="term-title">Interface energy</h3>
+              <p id="term-copy">
+                Spark reads signals like frontend languages, UI repositories, design-system work, and web-facing
+                polish.
+              </p>
+              <div class="term-meter">
+                <span></span>
+              </div>
+              <p id="term-impact">High Spark developers become interface crafters with visual polish moves.</p>
+            </aside>
+          </div>
+        </section>
+
+        <section class="rarity-band reveal-on-scroll" aria-labelledby="rarity-title">
+          <div>
+            <p class="eyebrow">Rarity Logic</p>
+            <h2 id="rarity-title">Legendary is earned, not toggled</h2>
+            <p>
+              A developer can become Legendary by being exceptional in one domain, elite across multiple domains, or
+              strong enough across all four fields to feel like a true all-rounder.
+            </p>
+          </div>
+          <div class="rarity-track" aria-label="Rarity path">
+            <span>Binder</span>
+            <span>Rare</span>
+            <span>Holo</span>
+            <span>Ultra</span>
+            <span>Legendary</span>
+          </div>
+        </section>
+      </section>
+
+      <section class="binder-page" id="binder-page" aria-label="DevDex collector binder">
+        <nav class="home-nav binder-nav" aria-label="Binder navigation">
+          <a class="home-brand" href="#home" aria-label="DevDex home">
+            <span class="brand-mark">DD</span>
+            <span>DevDex Binder</span>
+          </a>
+          <div class="nav-actions">
+            <button class="nav-cta ghost-cta" type="button" data-home-trigger>Field Guide</button>
+            <button class="nav-cta" type="button" data-studio-trigger>Open Studio</button>
+          </div>
+        </nav>
+
+        <section class="binder-hero reveal-on-scroll" aria-labelledby="binder-title">
+          <div>
+            <p class="eyebrow">Collector Binder</p>
+            <h2 id="binder-title">Your saved pulls</h2>
+            <p>
+              Every scanned developer can be sleeved here locally, with rarity, type, score, and a quick route back
+              to the live card.
+            </p>
+          </div>
+          <div class="binder-stat-strip" aria-label="Binder summary">
+            <div>
+              <span>Total Cards</span>
+              <strong id="binder-count">0</strong>
+            </div>
+            <div>
+              <span>Legendary</span>
+              <strong id="binder-legendary-count">0</strong>
+            </div>
+            <div>
+              <span>Last Pull</span>
+              <strong id="binder-updated">None</strong>
+            </div>
+          </div>
+        </section>
+
+        <section class="binder-grid-section reveal-on-scroll" aria-label="Saved developer cards">
+          <div class="binder-toolbar" aria-label="Binder tools">
+            <p class="binder-status" id="binder-status" aria-live="polite">
+              Binder saves locally in this browser. Export it before switching devices.
+            </p>
+            <div class="binder-tool-actions">
+              <button type="button" id="export-binder">Export Binder</button>
+              <label class="binder-import-label" for="import-binder">Import Binder</label>
+              <input id="import-binder" type="file" accept="application/json" />
+              <button type="button" id="clear-binder">Clear Binder</button>
+            </div>
+          </div>
+          <div class="binder-empty" id="binder-empty">
+            <span>DD</span>
+            <strong>No saved cards yet</strong>
+            <p>Scan a GitHub trainer in the Card Studio and DevDex will sleeve the pull here.</p>
+            <button class="primary-cta" type="button" data-studio-trigger>Open Studio</button>
+          </div>
+          <div class="binder-grid" id="binder-grid"></div>
+        </section>
+      </section>
+
+      <section class="studio-page" id="studio-page" aria-label="DevDex card studio">
+        <section class="workspace" aria-label="DevDex card studio">
+        <aside class="tool-panel left-panel" aria-label="Card controls">
+          <div class="brand-lockup">
+            <span class="brand-mark">DD</span>
+            <div>
+              <p class="eyebrow">DevDex</p>
+              <h1>Card Studio</h1>
+            </div>
+          </div>
+          <div class="panel-nav-row">
+            <button class="guide-link" type="button" data-home-trigger>Field Guide</button>
+            <button class="guide-link" type="button" data-binder-trigger>Binder</button>
+          </div>
+
+          <form class="trainer-search" id="trainer-form">
+            <label for="username">GitHub trainer</label>
+            <div class="input-row">
+              <input id="username" name="username" type="text" value="saransh" autocomplete="off" />
+              <button type="submit">Preview</button>
+            </div>
+            <p class="fetch-status" id="fetch-status">Prototype data loaded. Enter a GitHub username to scan.</p>
+          </form>
+
+          <div class="theme-selector" aria-label="Developer field scores">
+            <div class="theme-chip" data-field="spark">
+              <span>Spark</span>
+              <strong>78</strong>
+            </div>
+            <div class="theme-chip" data-field="tide">
+              <span>Tide</span>
+              <strong>86</strong>
+            </div>
+            <div class="theme-chip" data-field="forge">
+              <span>Forge</span>
+              <strong>82</strong>
+            </div>
+            <div class="theme-chip active" data-field="mind">
+              <span>Mind</span>
+              <strong>98</strong>
+            </div>
+          </div>
+
+          <div class="mini-ledger">
+            <div>
+              <span>Rarity</span>
+              <strong id="rarity-label">Holo Rare</strong>
+            </div>
+            <div>
+              <span>DevDex Score</span>
+              <strong id="field-score-label">88 / 100</strong>
+            </div>
+            <div>
+              <span>Rarity Path</span>
+              <strong id="rarity-path-label">Mind Specialist</strong>
+            </div>
+            <div>
+              <span>Set</span>
+              <strong id="set-label">DEV-001</strong>
+            </div>
+            <div>
+              <span>Edition</span>
+              <strong id="edition-label">Prototype</strong>
+            </div>
+          </div>
+
+          <div class="action-row" aria-label="Card actions">
+            <button type="button" id="save-card">Save Card</button>
+            <button type="button" id="copy-summary">Copy Summary</button>
+            <button type="button" id="copy-link">Copy Link</button>
+            <button type="button" id="download-card">Download SVG</button>
+            <button type="button" id="open-profile">GitHub</button>
+          </div>
+        </aside>
+
+        <section class="stage" aria-label="Card preview">
+          <div class="scanline"></div>
+          <article class="dev-card theme-frontend" id="dev-card">
+            <div class="card-foil"></div>
+            <div class="legendary-aura"></div>
+            <div class="card-inner">
+              <div class="elite-stamp" id="elite-stamp">Legendary Contributor</div>
+              <header class="card-top">
+                <div>
+                  <p class="stage-label" id="stage-label">Stage 2 Builder</p>
+                  <h2 id="card-name">Saransh</h2>
+                </div>
+                <div class="hp-lockup">
+                  <span>HP</span>
+                  <strong id="card-hp">186</strong>
+                </div>
+              </header>
+
+              <div class="portrait-window">
+                <img id="avatar-image" src="assets/dev-avatar.svg" alt="Developer avatar" />
+                <div class="type-badge" id="type-badge">Spark Type</div>
+              </div>
+
+              <div class="card-title-row">
+                <span id="class-label">Interface Alchemist</span>
+                <span id="overall-label">91 OVR</span>
+              </div>
+
+              <section class="moves" aria-label="Developer moves">
+                <div class="move-row">
+                  <div>
+                    <h3 id="attack-one-name">Pixel Perfect Push</h3>
+                    <p id="attack-one-copy">Deals bonus damage when UI polish and fast commits line up.</p>
+                  </div>
+                  <strong id="attack-one-damage">84</strong>
+                </div>
+                <div class="move-row">
+                  <div>
+                    <h3 id="attack-two-name">Component Chain</h3>
+                    <p id="attack-two-copy">Stacks power for every reusable pattern in the repo.</p>
+                  </div>
+                  <strong id="attack-two-damage">76</strong>
+                </div>
+              </section>
+
+              <footer class="card-bottom">
+                <div>
+                  <span>Weakness</span>
+                  <strong id="weakness-label">Legacy CSS</strong>
+                </div>
+                <div>
+                  <span>Resist</span>
+                  <strong id="resist-label">Debugging</strong>
+                </div>
+                <div>
+                  <span>Retreat</span>
+                  <strong id="retreat-label">2 tabs</strong>
+                </div>
+              </footer>
+
+              <p class="flavor-text" id="flavor-text">
+                Found near midnight deploys, this developer turns rough ideas into tiny, shining interfaces.
+              </p>
+
+              <div class="collector-strip">
+                <span id="collector-number">DEV-001/151</span>
+                <span id="rarity-symbol">★</span>
+              </div>
+            </div>
+          </article>
+        </section>
+
+        <aside class="tool-panel right-panel" aria-label="Card stats">
+          <div class="stat-heading">
+            <p class="eyebrow">Dex Scan</p>
+            <h2 id="scan-title">Spark profile</h2>
+          </div>
+
+          <div class="stat-list" id="stat-list"></div>
+
+          <div class="ability-box">
+            <span>Signature Ability</span>
+            <strong id="ability-name">Hot Reload Aura</strong>
+            <p id="ability-copy">Preview speed increases whenever the codebase stays modular.</p>
+          </div>
+
+          <div class="rarity-recipe" aria-label="Rarity recipe">
+            <div class="recipe-heading">
+              <span>Rarity Recipe</span>
+              <strong id="recipe-result">Mind Specialist</strong>
+            </div>
+            <div class="recipe-grid">
+              <div>
+                <span>Best</span>
+                <strong id="recipe-best">98</strong>
+              </div>
+              <div>
+                <span>Second</span>
+                <strong id="recipe-second">86</strong>
+              </div>
+              <div>
+                <span>Average</span>
+                <strong id="recipe-average">86</strong>
+              </div>
+              <div>
+                <span>Weakest</span>
+                <strong id="recipe-weakest">78</strong>
+              </div>
+              <div>
+                <span>DevDex</span>
+                <strong id="recipe-devdex">88</strong>
+              </div>
+            </div>
+            <p id="recipe-copy">Legendary route is checked automatically from the score spread.</p>
+          </div>
+        </aside>
+      </section>
+      </section>
+    </main>
+
+    <script src="script.js?v=devdex-11"></script>
+  </body>
+</html>
